@@ -16,6 +16,8 @@
 		BFFC38342C208C9700300D62 /* quotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC38332C208C9700300D62 /* quotesTests.swift */; };
 		BFFC383E2C208C9700300D62 /* quotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC383D2C208C9700300D62 /* quotesUITests.swift */; };
 		BFFC38402C208C9700300D62 /* quotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC383F2C208C9700300D62 /* quotesUITestsLaunchTests.swift */; };
+		BFFC384E2C208CB500300D62 /* quoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC384C2C208CB500300D62 /* quoteTableViewCell.swift */; };
+		BFFC384F2C208CB500300D62 /* quoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFC384D2C208CB500300D62 /* quoteTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BFFC38392C208C9700300D62 /* quotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFC383D2C208C9700300D62 /* quotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotesUITests.swift; sourceTree = "<group>"; };
 		BFFC383F2C208C9700300D62 /* quotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFFC384C2C208CB500300D62 /* quoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quoteTableViewCell.swift; sourceTree = "<group>"; };
+		BFFC384D2C208CB500300D62 /* quoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = quoteTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				BFFC38252C208C9700300D62 /* Assets.xcassets */,
 				BFFC38272C208C9700300D62 /* LaunchScreen.storyboard */,
 				BFFC382A2C208C9700300D62 /* Info.plist */,
+				BFFC384C2C208CB500300D62 /* quoteTableViewCell.swift */,
+				BFFC384D2C208CB500300D62 /* quoteTableViewCell.xib */,
 			);
 			path = quotes;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFC384F2C208CB500300D62 /* quoteTableViewCell.xib in Resources */,
 				BFFC38262C208C9700300D62 /* Assets.xcassets in Resources */,
 				BFFC38292C208C9700300D62 /* Base in Resources */,
 				BFFC38242C208C9500300D62 /* Base in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFC384E2C208CB500300D62 /* quoteTableViewCell.swift in Sources */,
 				BFFC38212C208C9500300D62 /* ViewController.swift in Sources */,
 				BFFC381D2C208C9500300D62 /* AppDelegate.swift in Sources */,
 				BFFC381F2C208C9500300D62 /* SceneDelegate.swift in Sources */,
